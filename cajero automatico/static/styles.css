@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(87, 126, 234) !important;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgb(42, 42, 202) !important;
+    width: 100%;
+    height: auto;
+}
+
+main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;  
+    max-width: 1200px;  
+    height: 50%;  
+    box-sizing: border-box;
+    margin-top: 10rem;  
+    border-radius: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: black !important;
+    font-size: 3rem !important;
+    font-weight: bold !important;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+h2{
+    color: black !important;
+    font-size: 2rem !important;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.logo{
+    height: 2rem;
+    width: auto;
+    margin-left: 5rem;
+}
+
+form .btn {
+    margin-top: 10px ;
+    margin-left: auto;
+    margin-right: auto ;
+    max-width: 20rem ;  
+}
+
+.menu .btn{
+    margin-top: 10px ;
+    margin-left: auto;
+    margin-right: auto ;
+    max-width: 20rem ;  
+}
+
